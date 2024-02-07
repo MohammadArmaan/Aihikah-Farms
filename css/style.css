@@ -20,6 +20,7 @@
 .logo{
     height: 8%;
     width: 8rem;
+    opacity: 60%;
     /* mix-blend-mode: color-burn; */
 }
 
@@ -179,36 +180,37 @@
 }
 
 .step-image-box:before{ 
-    width: 60%;
+    width: 60%; 
     /* height: 60%; */
     
     /* 60% of Parent's Width */
-    padding-bottom: 60%;
-    background-color: #e1fdec;
+     padding-bottom: 60%;
+    /* background-color: #e1fdec; */
     z-index: -2;
 }
 
 .step-image-box:after{
     width: 45%;
     padding-bottom: 45%;
-    background-color: #e4fdee;
+    /* background-color: #e4fdee; */
     z-index: -1;
     
-}
+} 
 .step-image-box{
-    overflow: hidden;
-    border-radius: 45%;
+    /* border-radius: 45%; */
 }
 
 .step-img{
-    width: 45%;
-    border-radius: 9px;
+    overflow: hidden;
     transition: all 0.4s;
+    width: 70%;
+    border-radius: 9px;
     
-
+    
 }
 
 .step-img:hover{
+    display: inline;
     transform: scale(1.1);
 }
 
